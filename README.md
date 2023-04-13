@@ -36,4 +36,8 @@ Body
 "text": "message to send!"
 }
 
-Script PRTG save in C:\Program Files (x86)\PRTG Network Monitor\Notifications\EXE 
+Script PRTG wsp.ps1 save in C:\Program Files (x86)\PRTG Network Monitor\Notifications\EXE 
+
+prtg template  
+script : wsp.ps1
+parameters '%probe' - sensor '%sensor' -sensorID '%sensorid' -status '%status' -message '%message' -since '%since' -lastdown '%lastdown' -device '%device' -sensorURL '%linksensor' -deviceURL '%linkdevice' -serviceURL '%serviceurl'
