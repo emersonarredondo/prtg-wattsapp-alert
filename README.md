@@ -24,7 +24,7 @@ Format to send through messages from other services
 Example for curl
 
 curl -X 'GET'
-'http://http://[server IP]:3000/api/sendText?phone=code+number+@c.us&text=hello&session=default'
+'http://[server IP]:3000/api/sendText?phone=code+number+@c.us&text=hello&session=default'
 -H 'accept: application/json'
 Postman
 Post method to http://[server IP]:3000
